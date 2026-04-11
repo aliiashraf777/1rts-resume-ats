@@ -1,5 +1,5 @@
 export const resumesData: IResume[] = [
-  {
+  { 
     id: "1",
     companyName: "Google",
     jobTitle: "Frontend Developer",
