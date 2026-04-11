@@ -4,7 +4,7 @@ import { formatSize } from '~/lib/utils';
 
 interface IFileUploadProps {
     onFileSelect?: (file: File | null) => void;
-}
+} 
 
 const FileUploader = ({ onFileSelect }: IFileUploadProps) => {
 
