@@ -1,7 +1,7 @@
 import { Link } from "react-router"
 import ScoreCircle from "./ScoreCircle"
 
-
+ 
 const ResumeCard = ({ resume: { id, companyName, jobTitle, feedback, imagePath } }: { resume: IResume }) => {
   return (
     <Link to={`/resume/${id}`}
